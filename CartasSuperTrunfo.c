@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-// Estrutura para armazenar os dados de uma carta
-typedef struct {
+int main() {
+   // Estrutura para armazenar os dados de uma carta
+    
     char estado;               // Estado da cidade (A-H)
     char codigo[4];            // Código da carta (ex: A01, B03)
     char nomeCidade[50]; // Nome da cidade
@@ -9,22 +10,6 @@ typedef struct {
     float area;                // Área da cidade em km²
     float pib;                 // PIB da cidade
     int pontosTuristicos;      // Número de pontos turísticos
-} Carta;
-
-// Função para exibir as informações de uma carta
-void exibirCarta(Carta carta, int numeroCarta) {
-    printf("Carta %d:\n", numeroCarta);
-    printf("Estado: %c\n", carta.estado);
-    printf("Código: %s\n", carta.codigo);
-    printf("Nome da Cidade: %s\n", carta.nomeCidade);
-    printf("População: %d\n", carta.populacao);
-    printf("Área: %.2f km²\n", carta.area);
-    printf("PIB: %.2f bilhões de reais\n", carta.pib);
-    printf("Número de Pontos Turísticos: %d\n\n", carta.pontosTuristicos);
-}
-
-int main() {
-    Carta carta1, carta2;
 
     // Entrada de dados para a primeira carta
     printf("Informe os dados da primeira carta:\n");
@@ -33,9 +18,7 @@ int main() {
     printf("Código (ex: A01, B03): ");
     scanf("%s", carta1.codigo);
     printf("Nome da Cidade: ");
-    getchar();  // Limpar o buffer de entrada
     fgets(carta1.nomeCidade, MAX_NOME_CIDADE, stdin);
-    carta1.nomeCidade[strcspn(carta1.nomeCidade, "\n")] = '\0';  // Remover o '\n' gerado pelo fgets
     printf("População: ");
     scanf("%d", &carta1.populacao);
     printf("Área (em km²): ");
