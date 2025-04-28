@@ -54,25 +54,25 @@ printf ("Digite o Número de Pontos Turísticos da cidade:\n");
 
 //Imprime as informações da primeira carta
    
-printf ("Carta1");
-printf ("Estado: %c", Estado);   
-printf ("Código da Carta: %s", Cod_carta);
-printf ("Nome da Cidade: %s", nome_cidade);
-printf ("População: %d", populacao);
-printf ("Área (em km²): %f", Area_km);
-printf ("PIB: %f", pib);
-printf ("Número de Pontos Turísticos: %d", Num_pont_turis);
+printf ("Carta1\n");
+printf ("Estado: %c\n", Estado);   
+printf ("Código da Carta: %s\n", Cod_carta);
+printf ("Nome da Cidade: %s\n", nome_cidade);
+printf ("População: %d\n", populacao);
+printf ("Área (em km²): %f\n", Area_km);
+printf ("PIB: %f\n", pib);
+printf ("Número de Pontos Turísticos: %d\n", Num_pont_turis);
 
 //Imprime as informações da segunda carta
 
-printf ("Carta2");
-printf ("Estado: %c", Estado2);   
-printf ("Código da Carta: %s", Cod_carta2);
-printf ("Nome da Cidade: %s", nome_cidade2);
-printf ("População: %d", populacao2);
-printf ("Área (em km²): %f", Area_km2);
-printf ("PIB: %f", pib2);
-printf ("Número de Pontos Turísticos: %d", Num_pont_turis2);
+printf ("Carta2\n");
+printf ("Estado: %c\n", Estado2);   
+printf ("Código da Carta: %s\n", Cod_carta2);
+printf ("Nome da Cidade: %s\n", nome_cidade2);
+printf ("População: %d\n", populacao2);
+printf ("Área (em km²): %f\n", Area_km2);
+printf ("PIB: %f\n", pib2);
+printf ("Número de Pontos Turísticos: %d\n", Num_pont_turis2);
    
     return 0;
 }
