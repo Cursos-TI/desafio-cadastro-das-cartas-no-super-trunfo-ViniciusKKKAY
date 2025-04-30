@@ -16,7 +16,7 @@ int main() {
     printf("Digite o Código da Carta:\n");
     scanf("%s", Cod_carta);
     printf("Digite o Nome da Cidade:\n");
-    scanf(" %s", nome_cidade);
+    scanf("%s", nome_cidade);
     printf("Digite a quantidade de habitantes da cidade:\n");
     scanf("%d", &populacao);
     printf("Digite a Área (em km²) da cidade:\n");
