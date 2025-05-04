@@ -56,7 +56,6 @@ int main() {
 
     // comparações 
 
-    // Comparações
     comp_pop = populacao > populacao2;
     comp_area = Area_km > Area_km2;
     comp_pib = pib > pib2;
